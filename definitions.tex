@@ -1,0 +1,12 @@
+\renewcommand{\thesection}{\Roman{section}}
+\titleformat{\section}
+  {\centering \large}{\thesection.}{0.5em}{}
+
+\renewcommand{\thesubsection}{\Roman{section}}
+\counterwithout{subsection}{section}
+\titleformat{\subsection}
+  {\itshape}{\thesubsection.}{0.5em}{}
+
+%\let\ul\uline
+\let\ul\relax
+%\let\'\relax
